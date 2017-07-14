@@ -1,0 +1,7 @@
+trial,fractal_left,fractal_right,prob_left,prob_right,reward_left,reward_right
+1,fig/19.jpg,fig/7.jpg,0.514,0.440,1,1
+2,fig/19.jpg,fig/7.jpg,0.509,0.459,1,1
+3,fig/19.jpg,fig/7.jpg,0.540,0.464,1,1
+4,fig/19.jpg,fig/7.jpg,0.545,0.428,1,1
+5,fig/19.jpg,fig/7.jpg,0.524,0.399,1,1
+6,fig/19.jpg,fig/7.jpg,0.560,0.397,1,1

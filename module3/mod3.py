@@ -13,7 +13,7 @@ def ols(x, y, p=1):
 
     Y = np.reshape(y, (x.shape[0], 1))
 
-    w = np.dot(np.linalg.inv(np.dot(X.transpose(), X)), np.dot(X.transpose(), Y))
+    w = np.dot(np.linalg.pinv(X), Y)
 
     return w
 

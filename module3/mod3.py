@@ -112,8 +112,6 @@ def plot_bars(y, title=None, ax_labels=None):
 
 def plot_generated(img_orig, img_gen, img_shape=None, n_show=10, selected=None):
     
-    plt.figure(figsize=(10, 3))
-    
     if selected is None:
         selected = np.random.randint(0, high=len(img_orig), size=n_show)
 
@@ -137,8 +135,6 @@ def plot_generated(img_orig, img_gen, img_shape=None, n_show=10, selected=None):
         plt.gray()
         plt.gca().get_xaxis().set_visible(False)
         plt.gca().get_yaxis().set_visible(False)
-        
-    plt.tight_layout()
     
     return
 
